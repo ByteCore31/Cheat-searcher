@@ -1,0 +1,69 @@
+{
+  "_info": "База Cheat Search. Регистр, пробелы, точки, '-' и '_' не важны: «Wild Client», «wild_client» и «WILDCLIENT» считаются одним и тем же.",
+
+  "cheat_clients": [
+    "wildclient", "deltaclient", "pulseclient","nursultan", "expensiveclient",
+    "wexside", "akrien", "deadcode", "wurst", "meteorclient", "liquidbounce", "aristois",
+    "novoline", "rusherhack", "thunderhack", "futureclient", "sigmaclient", "sigma5",
+    "vapev4", "vapelite", "impactclient", "kamiblue", "salhack", "huzuni", "wolframclient",
+    "inertiaclient", "bozeclient", "doomsday", "riseclient", "fluxclient", "jigsawclient",
+    "bleachhack", "celestialclient", "celestialrecode", "expensiveupgrade", "ravenb",
+    "wweclient", "matixclient", "harukaclient",
+    "fdpclient", "tenacityclient", "exhibitionclient", "konasclient", "phobosclient",
+    "lambdaclient", "seppuku", "gamesense", "neverhook", "zamorozka", "catlavan",
+    "mincedclient", "excellentclient", "arbuzclient", "venusclient", "rockstarclient"
+  ],
+
+  "suspicious": {
+    "celestial": "похоже на чит-клиент Celestial",
+    "autoclicker": "автокликер",
+    "autoclick": "автокликер",
+    "clickermann": "программа-кликер Clickermann",
+    "xray": "X-Ray — видеть руды сквозь стены",
+    "freecam": "Freecam — свободная камера",
+    "baritone": "Baritone — бот, который играет сам",
+    "killaura": "KillAura — автоматическая атака",
+    "triggerbot": "TriggerBot — автоматическая атака",
+    "injector": "инжектор — внедряет читы в игру",
+    "cheatengine": "Cheat Engine — меняет память игры",
+    "processhacker": "Process Hacker — часто им прячут читы во время проверки",
+    "systeminformer": "System Informer — часто им прячут читы во время проверки",
+    "haruka": "похоже на чит Haruka",
+    "newlauncher": "NewLauncher — бывает сборкой с читами, проверь вручную",
+    "aimbot": "Aimbot — автоматическая наводка",
+    "autototem": "AutoTotem — автоматически берёт тотем",
+    "scaffold": "Scaffold — сам строит мост под ногами",
+    "nuker": "Nuker — быстро ломает блоки вокруг",
+    "fastbow": "FastBow — быстрая стрельба из лука",
+    "antiknockback": "AntiKnockBack — убирает отдачу от ударов",
+    "chestesp": "ChestESP — подсветка сундуков сквозь стены",
+    "playeresp": "PlayerESP — подсветка игроков сквозь стены",
+    "hitbox": "HitBox — увеличивает хитбоксы игроков"
+  },
+
+  "_allowed_info": "Разрешённое: такие названия не считаются ни читом, ни подозрительным. Правила у серверов разные, настрой под свой сервер.",
+  "allowed": {
+    "pulselauncher": "лаунчер Pulse Visuals (разрешённые визуалы)",
+    "pulsevisuals": "Pulse Visuals (разрешённые визуалы)"
+  },
+
+  "extensions": [".exe", ".jar", ".dll", ".zip", ".rar", ".7z", ".bat", ".lnk", ".msi"],
+
+  "folders": [
+    ["%USERPROFILE%\\Desktop", 4],
+    ["%OneDrive%\\Desktop", 4],
+    ["%USERPROFILE%\\Downloads", 4],
+    ["%USERPROFILE%\\Documents", 3],
+    ["%OneDrive%\\Documents", 3],
+    ["%APPDATA%", 2],
+    ["%APPDATA%\\.minecraft", 5],
+    ["%LOCALAPPDATA%", 1],
+    ["%TEMP%", 2],
+    ["C:\\", 0],
+    ["%ProgramFiles%", 0],
+    ["%ProgramFiles(x86)%", 0],
+    ["%ProgramData%", 0]
+  ],
+
+  "skip_folders": ["node_modules", ".git", "__pycache__", "assets", "windowsapps", "cache", "gpucache", "code cache"]
+}
